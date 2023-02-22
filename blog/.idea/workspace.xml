@@ -2,10 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cdacb16-9d8c-48ee-a140-5500bccc92e7" name="Changes" comment="added a new html page">
+      <change afterPath="$PROJECT_DIR$/blog/accounts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/accounts/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/accounts/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/accounts/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/accounts/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/accounts/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/accounts/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/accounts/views.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/blog/templates/post_delete.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/blog/templates/post_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/registration/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/registration/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/blog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/config/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/config/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/blog/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/templates/post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/post_detail.html" afterDir="false" />
@@ -38,19 +51,22 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2KxhFP7pyfZhv4RvtcBwxXhpZfz" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -82,6 +98,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="added a new html page" />
     <option name="LAST_COMMIT_MESSAGE" value="added a new html page" />
   </component>
